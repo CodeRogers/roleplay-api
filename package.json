@@ -1,0 +1,45 @@
+{
+  "name": "roleplay-api",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node ace serve --watch",
+    "build": "node ace build --production",
+    "start": "node server.js",
+    "lint": "eslint . --ext=.ts",
+    "format": "prettier --write .",
+    "test": "node -r @adonisjs/assembler/build/register japaFile.ts"
+  },
+  "devDependencies": {
+    "@adonisjs/assembler": "^5.3.9",
+    "@types/supertest": "^2.0.11",
+    "adonis-preset-ts": "^2.1.0",
+    "eslint": "^8.6.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-adonis": "^2.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "execa": "^5.1.1",
+    "get-port": "^5.1.1",
+    "japa": "^4.0.0",
+    "pino-pretty": "^7.3.0",
+    "prettier": "^2.5.1",
+    "sqlite3": "^5.0.2",
+    "supertest": "^6.1.6",
+    "typescript": "~4.5",
+    "youch": "^3.0.0",
+    "youch-terminal": "^2.0.0"
+  },
+  "dependencies": {
+    "-": "^0.0.1",
+    "@adonisjs/core": "^5.4.2",
+    "@adonisjs/lucid": "^16.3.2",
+    "@adonisjs/mail": "^7.2.4",
+    "@adonisjs/repl": "^3.1.7",
+    "@adonisjs/view": "^6.1.1",
+    "luxon": "^2.3.0",
+    "phc-argon2": "^1.1.2",
+    "proxy-addr": "^2.0.7",
+    "reflect-metadata": "^0.1.13",
+    "source-map-support": "^0.5.21"
+  }
+}
